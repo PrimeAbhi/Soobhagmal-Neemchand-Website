@@ -1,0 +1,29 @@
+.home-footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    font-size: 12px;
+    color: #8b8d93;
+    background-color: #ebebea;
+    padding: 5px 8px 5px 7px;
+    margin: 0 auto;
+    z-index:100;
+}
+.footer-copyright {
+    table-layout: fixed;
+    width: 99%;
+}
+.footer-copyright td {
+    vertical-align: top;
+}
+.footer-copyright-left {
+    text-align: left;
+}
+.footer-copyright-center {
+    text-align: center;
+    width: 250px;
+}
+.footer-copyright-right {
+    text-align: right;
+}
