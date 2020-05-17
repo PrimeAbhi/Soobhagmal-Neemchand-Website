@@ -24,7 +24,9 @@ export class CompanydetailsComponent implements OnInit {
       showCancelButton: true,
       confirmButtonColor: '#3085d6',
       cancelButtonColor: '#d33',
-      confirmButtonText: 'Yes'
+      confirmButtonText: 'Yes',
+      cancelButtonText: 'No',
+      reverseButtons: true
     }).then((result) => {
       if (result.value) {
         Swal.fire(
