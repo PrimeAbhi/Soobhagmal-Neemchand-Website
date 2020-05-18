@@ -1,4 +1,4 @@
-.home-footer{
+.home-footer {
     position: fixed;
     width: 100%;
     bottom: 0px;
@@ -8,22 +8,49 @@
     background-color: #ebebea;
     padding: 5px 8px 5px 7px;
     margin: 0 auto;
-    z-index:100;
+    z-index: 100;
 }
+
+.submitCancelContainer {
+    margin: 0px auto;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.btnPrimary, .btnAbort {
+    padding: 5px 10px;
+    border: medium none !important;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 2px;
+    font-family: Arial;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    font-size: 16px;
+    line-height: 22px;
+}
+
 .footer-copyright {
     table-layout: fixed;
     width: 99%;
 }
+
 .footer-copyright td {
     vertical-align: top;
 }
+
 .footer-copyright-left {
     text-align: left;
 }
+
 .footer-copyright-center {
     text-align: center;
     width: 250px;
 }
+
 .footer-copyright-right {
     text-align: right;
 }

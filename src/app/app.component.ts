@@ -46,8 +46,7 @@ export class AppComponent {
     })
   }
 
-  openBrokerageRate(template: TemplateRef<any>) {
-    this.modalTitle = "Create News & Highlight Summary";
+  openModal(template: TemplateRef<any>) {
     this.modalRef = this.modalService.show(template, { backdrop: 'static', keyboard: false, class: 'modal-md' });
   }
 }

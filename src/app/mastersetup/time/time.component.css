@@ -1,0 +1,41 @@
+.timecontainer {
+    font-size: 14px;
+    border: 1px solid black;
+}
+
+.forminnercontainer {
+    padding: 20px;
+}
+
+#select_time_input {
+    width: 200px;
+}
+
+#select_time {
+    height: 400px;
+    width: 200px;
+}
+
+.detailsContainer {
+    margin-top: 200px
+}
+
+table {
+    border-collapse: unset;
+}
+
+.btnSave, .btnUpdate, .btnDelete, .btnRefresh, .btnCancel {
+    padding: 5px 10px;
+    border: medium none !important;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 2px;
+    font-family: Arial;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    font-size: 16px;
+    line-height: 22px;
+}
+

@@ -15,6 +15,7 @@ import { SoudaupdateComponent } from './soudaupdate/soudaupdate.component';
 import { ReportsComponent } from './reports/reports.component';
 import { CompanydetailsComponent } from './mastersetup/companydetails/companydetails.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { TimeComponent } from './mastersetup/time/time.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     SoudaupdateComponent,
     ReportsComponent,
     CompanydetailsComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    TimeComponent
   ],
   imports: [
     BrowserModule,
